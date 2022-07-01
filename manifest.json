@@ -1,0 +1,25 @@
+{
+    "name": "Youtube Logger",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "content-script.js"
+            ],
+            "all_frames": true
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

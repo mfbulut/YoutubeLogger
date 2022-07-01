@@ -22,7 +22,7 @@ function LogCurrentPage() {
 }
 
 // Log page only when it's a video
-if (window.location.href.includes("youtube.com/watch")) {
+if (window.location.href.includes("youtube.com/watch?")) {
     LogCurrentPage();
 }
 

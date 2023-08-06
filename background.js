@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(async () => {
 
     //Default values
     const defaultUsername = 'Default Name';
-    const defaultWebhook = "https://discord.com/api/webhooks/992403231881826304/ZVYVBtCwf9VwHfdk7B8nqmlSmECSyri3v-GbQVPs8QSSqspVm9-GuDiLffZdH3cFKWEC";
+    const defaultWebhook = "Webhook URL";
 
     //Set default values
     chrome.storage.sync.set({ username: defaultUsername, webhook: defaultWebhook });

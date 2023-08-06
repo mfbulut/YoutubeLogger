@@ -1,2 +1,3 @@
 # YoutubeLogger
-Youtube Logger for Discord
+Log videos you watch to discord using hooks
+Add your webhook url to background.js
